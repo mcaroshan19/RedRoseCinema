@@ -1,0 +1,51 @@
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 200%;
+    background-color: rgb(234, 225, 225);
+    color: white;
+    text-align: center;
+    height: 120px;
+    
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1 1 300px;
+    margin-right: 20px;
+    color: black;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+

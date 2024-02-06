@@ -1,0 +1,14 @@
+.Header
+
+    {
+        height: 2px;
+        padding: 30px 30px ;
+        display: -moz-stack;
+        background-color:rgb(32, 133, 205);
+       
+    }
+    .company-name {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
