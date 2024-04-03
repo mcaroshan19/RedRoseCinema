@@ -1,133 +1,97 @@
-.jambo{
-    margin-top: 2%;
-    margin-left: 12%;
- }
- .jambo1{
- font-weight: bold;
- font-size: 60px;
- }
- .jambo2{
-     font-weight: bold;
-     font-size: 60px;
- }
- #ba{
-     color: rgb(233, 78, 17);
- }
- .jambo3{
-     font-weight: bold;
-     font-size: larger;
- }
- #bi{
-  color: red;
+.slideshow {
+    width: 100%;
+    height: auto;
+    
+    margin: auto;
+    overflow: hidden;
+
+   
+    
+    
 }
- .jambo4, a{
- background-color: rgb(9, 42, 187);
- color: white;
- border-radius: 20px;
- padding: 5px ;
- text-decoration: none;
- }
- .jambo5{
- border-radius: 20%;
- margin-top: 80px;
- }
+.slideshow img {
+    width: 100%;
+ display: inline;
+ height: auto;
 
 
-.typed-cursor {
-    font-size: 30px;
-    color: var(--dark);
+    
 }
-
-.btn-play {
-    position: relative;
-    display: block;
-    box-sizing: content-box;
-    width: 16px;
-    height: 26px;
-    border-radius: 100%;
-    border: none;
-    outline: none !important;
-    padding: 18px 20px 20px 28px;
-    background: var(--primary);
-}
-
-.btn-play:before {
-    content: "";
-    position: absolute;
-    z-index: 0;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    display: block;
-    width: 60px;
-    height: 60px;
-    background: var(--primary);
-    border-radius: 100%;
-    animation: pulse-border 1500ms ease-out infinite;
-}
-
-.btn-play:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    display: block;
-    width: 60px;
-    height: 60px;
-    background: #FFFFFF;
-    border-radius: 100%;
-    transition: all 200ms;
-}
-
-.btn-play span {
-    display: block;
-    position: relative;
-    z-index: 3;
-    width: 0;
-    height: 0;
-    left: -1px;
-    border-left: 16px solid var(--primary);
-    border-top: 11px solid transparent;
-    border-bottom: 11px solid transparent;
-}
-
-@keyframes pulse-border {
-    0% {
-        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
-        opacity: 1;
-    }
-
-    100% {
-        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
-        opacity: 0;
-    }
-}
-
-.modal-video .modal-dialog {
-    position: relative;
-    max-width: 800px;
-    margin: 60px auto 0 auto;
-}
-
-.modal-video .modal-body {
-    position: relative;
-    padding: 0px;
-}
-
-.modal-video .close {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    right: 0px;
-    top: -30px;
-    z-index: 999;
-    font-size: 30px;
-    font-weight: normal;
-    color: #FFFFFF;
-    background: #000000;
-    opacity: 1;
-}
-
+.container {
+    max-width: 100% ;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+  }
   
+  .text {
+    flex: 2;
+    padding-right: 20px; 
+    color: white;
+  }
+  
+  .image {
+    flex: 1.5;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-color: blanchedalmond;
+  }
+  .image h2{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.image p{
+    text-align: center;
+    color: white;
+}
+.dis li{
+    font-size:larger;
+    line-height: 1.5;
+    font-variant: small-caps;
+}
+  
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.form-group textarea {
+  resize: vertical;
+  height: 120px;
+}
+.form-group .btn {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-group .btn:hover {
+  background-color: #c9302c;
+}

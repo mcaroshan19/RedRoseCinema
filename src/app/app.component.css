@@ -1,8 +1,6 @@
-.bi{
-    width: 100vh;
-    height: 100vh;
-    background-image: url(../assets/Bjjs.jpeg);
-   
+.background-image
+{
+    background-image: url('../assets/D2.jpg');
+    background-size: cover;
 
 }
-
